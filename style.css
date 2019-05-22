@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'Exo2_Regular';
+    src: url('font/Exo2-Regular.eot?') format('eot'),
+    url('font/Exo2-Regular.woff') format('woff'),
+    url('font/Exo2-Regular.ttf') format('truetype'),
+    url('font/Exo2-Regular.svg#Exo2_Regular') format('svg');
+
+}
+@font-face {
+    font-family: 'Exo2_Medium';
+    src: url('font/Exo2-Medium.eot?') format('eot'),
+    url('font/Exo2-Medium.woff') format('woff'),
+    url('font/Exo2-Medium.ttf') format('truetype'),
+    url('font/Exo2-Medium.svg#Exo2_Medium') format('svg');
+
+}
+@font-face {
+    font-family: 'Exo2_Bold';
+    src: url('font/Exo2-Bold.eot?') format('eot'),
+    url('font/Exo2-Bold.woff') format('woff'),
+    url('font/Exo2-Bold.ttf') format('truetype'),
+    url('font/Exo2-Bold.svg#Exo2_Bold') format('svg');
+
+}
+@font-face {
+    font-family: 'Exo2_SemiBold';
+    src: url('font/Exo2-SemiBold.eot?') format('eot'),
+    url('font/Exo2-SemiBold.woff') format('woff'),
+    url('font/Exo2-SemiBold.ttf') format('truetype'),
+    url('font/Exo2-SemiBold.svg#Exo2_SemiBold') format('svg');
+
+}
+@font-face {
+    font-family: 'Exo2_Light';
+    src: url('font/Exo2-Light.eot?') format('eot'),
+    url('font/Exo2-Light.woff') format('woff'),
+    url('font/Exo2-Light.ttf') format('truetype'),
+    url('font/Exo2-Light.svg#Exo2_Light') format('svg');
+
+}
+@font-face {
+    font-family: 'Exo2_ExtraLight';
+    src: url('font/Exo2-ExtraLight.eot?') format('eot'),
+    url('font/Exo2-ExtraLight.woff') format('woff'),
+    url('font/Exo2-ExtraLight.ttf') format('truetype'),
+    url('font/Exo2-ExtraLight.svg#Exo2_ExtraLight') format('svg');
+
+}
+@media (min-width: 1920px){
+    .container {
+        width: 1586px;
+    }
+}
+body {
+    font-family: Exo2_Medium;
+    background: #fff;
+    line-height: 1.25;
+    color: #555;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+h1 {
+    font-size: 56px;
+    color: #333;
+    margin: 0 0 40px;
+}
+h2 {
+    font-family: Exo2_SemiBold;
+    font-size: 32px;
+    color: #333;
+    margin: 0 0 10px;
+}
+p {
+    font-family: Exo2_Light;
+    margin-bottom: 45px;
+}
+.custom-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.custom-flex > div {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+}
+.top_block {
+    background: url("images/top.png") no-repeat center;
+    background-size: cover;
+    height: 963px;
+    color: #fff;
+}
+.top_block a {
+    color: #fff;
+    font-family: Exo2_SemiBold;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-left: 60px;
+    padding-bottom: 5px;
+}
+.top_block a:hover, .top_block a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.underline {
+    background: url("images/underline.png") repeat-x bottom;
+}
+.title {
+    font-size: 72px;
+    line-height: 1.15em;
+    margin: 120px 0 15px;
+}
+.subtitle {
+    font-family: Exo2_ExtraLight;
+    font-size: 42px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.btn-custom_wrapper {
+    background: url("images/button_shadow.png");
+    width: 393px;
+    height: 105px;
+    position: relative;
+    margin: 0 auto;
+}
+.btn-custom {
+    background: url("images/button.png");
+    font-family: Exo2_SemiBold;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 349px;
+    height: 57px;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.img_centered {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.about_title {
+    color: #777;
+    font-size: 28px;
+    text-align: center;
+    min-height: 105px;
+}
+.about_icon {
+    position: relative;
+    height: 170px;
+}
+.about1 p {
+    font-size: 30px;
+    line-height: 1.45;
+}
+.about1 ul {
+    list-style-type: disc;
+    font-family: Exo2_Light;
+    font-size: 18px;
+    color: #777;
+    padding-left: 20px;
+    margin: 25px 0 0;
+    line-height: 1.7;
+}
+.about_block {
+    background: url("images/block.png") no-repeat center;
+    width: 856px;
+    height: 231px;
+    color: #fff;
+    margin: 100px auto;
+    line-height: 1.4;
+    padding: 25px;
+}
+.text_big {
+    font-family: Exo2_Medium;
+    font-size: 48px;
+}
+.text_small {
+    font-family: Exo2_Light;
+    font-size: 27px;
+}
+.about2 {
+    background: url("images/mid.png") no-repeat center;
+    background-size: cover;
+    height: 1592px;
+    margin-bottom: 125px;
+}
+.about2 p {
+    font-size: 22px;
+    color: #777;
+    margin-bottom: 55px;
+    line-height: 1.5;
+}
+.about_step {
+    background: url("images/round.png") no-repeat center;
+    width: 165px;
+    height: 157px;
+    margin: auto;
+    position: relative;
+    font-family: Exo2_Medium;
+    font-size: 71px;
+    color: #fff;
+    line-height: 2.2;
+}
+.about_step_shadow {
+    background: url("images/round_shadow1.png") no-repeat center;
+    width: 301px;
+    height: 301px;
+    position: absolute;
+    top: -37px;
+    left: -38px;
+}
+.about_step_text {
+    font-size: 27px;
+    margin: 45px auto 0;
+}
+.about_arrow {
+    background: url("images/arrow.png") no-repeat center;
+    width: 27px;
+    height: 51px;
+    color: #1877cc;
+    position: absolute;
+    right: -15px;
+    top: 20%;
+}
+.staff_text {
+    font-family: Exo2_Light;
+    font-size: 32px;
+    color: #999;
+    margin-bottom: 75px;
+}
+.spec_name {
+    font-size: 27px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.spec_master {
+    font-family: Exo2_Bold;
+    font-size: 16px;
+    color: #287ddd;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.spec_rating {
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 100px;
+}
+.spec_rating img {
+    vertical-align: top;
+    margin-right: 7px;
+}
+.stat {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 100px;
+}
+.stat span {
+    font-size: 60px;
+    color: #287ddd;
+}
+.stat_text {
+    display: inline-block;
+    text-align: left;
+}
+.feedback {
+    background: url("images/bot.png") no-repeat center;
+    height: 603px;
+    background-size: cover;
+    padding: 65px;
+}
+.feedback_text {
+    font-family: Exo2_Light;
+    font-size: 32px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.btn-soc_wrapper {
+    width: 391px;
+    height: 105px;
+    position: relative;
+    margin: 0 auto;
+}
+.btn-soc {
+    font-family: Exo2_SemiBold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 349px;
+    height: 57px;
+    position: absolute;
+    top: 14px;
+    left: 13px;
+}
+.btn-soc img {
+    margin: -10px 12px 0 0;
+}
+.wrapper_what {
+    background: url("images/button_what_shadow.png") no-repeat center;
+}
+.soc_what {
+    background: url("images/button_what.png") no-repeat center;
+    color: #25e47a;
+}
+.wrapper_tele {
+    background: url("images/button_tele_shadow.png") no-repeat center;
+}
+.soc_tele {
+    background: url("images/button_tele.png") no-repeat center;
+    color: #35a6de;
+}
+.wrapper_viber {
+    background: url("images/button_viber_shadow.png") no-repeat center;
+}
+.soc_viber {
+    background: url("images/button_viber.png") no-repeat center;
+    color: #7b549c;
+}
+footer {
+    padding: 30px 0;
+    font-size: 22px;
+}
+footer .pull-left {
+    font-family: Exo2_Light;
+    color: #919191;
+}
+footer a {
+    color: #287ddd;
+    text-decoration: underline;
+}
+.popup {
+    padding: 30px;
+    color: #030303;
+}
+.popup h1 {
+    font-family: Exo2_Bold;
+    font-size: 40px;
+    margin: 60px 0 20px;
+}
+.popup h3 {
+    font-family: Exo2_Bold;
+    font-size: 27px;
+    margin: 30px 0 15px;
+}
+.device {
+    width: 184px;
+    height: 162px;
+    padding: 15px 5px 20px;
+    margin: 5px;
+    float: left;
+    box-shadow: 0 6px 13px 0 rgba(0,0,0,.1);
+}
+.device:hover {
+    margin-top: -20px;
+}
+.device_img_wrapper {
+    position: relative;
+    height: 100px;
+}
+.device_name {
+    font-size: 15px;
+    color: #000;
+}
+.popup .btn-custom_wrapper {
+    margin-top: 25px;
+}
+.popup .form-group {
+    margin-bottom: 20px;
+}
+.popup label {
+    font-family: Exo2_Bold;
+    font-size: 11px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.popup input.form-control {
+    height: 52px;
+    border-color: #e1e1e1;
+}
